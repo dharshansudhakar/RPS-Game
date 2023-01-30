@@ -85,17 +85,17 @@ onMounted(() => {
 
 				<button @click="play('rock')"
 					class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-pink-500">
-					<img src="./assets/RockIcon.svg" alt="Rock" class="w-full" />
+					<img src="./assets/RockIcon.jpg" alt="Rock" class="w-full" />
 				</button>
 
 				<button @click="play('paper')"
 					class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-green-500">
-					<img src="./assets/PaperIcon.svg" alt="Paper" />
+					<img src="./assets/PaperIcon.png" alt="Paper" />
 				</button>
 
 				<button @click="play('scissors')"
 					class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-yellow-500">
-					<img src="./assets/ScissorsIcon.svg" alt="Scissors" />
+					<img src="./assets/ScissorIcon.png" alt="Scissors" />
 				</button>
 
 			</div>
